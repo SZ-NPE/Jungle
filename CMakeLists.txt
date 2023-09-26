@@ -106,8 +106,8 @@ if (LOGGER_NO_BACKTRACE GREATER 0)
     message(STATUS "---- NO BACKTRACE BY LOGGER ----")
 endif()
 
-file(COPY ${CMAKE_SOURCE_DIR}/scripts/runtests.sh
-     DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+# file(COPY ${CMAKE_SOURCE_DIR}/scripts/runtests.sh
+#      DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
 
 # === CUSTOM LOGGER ===
 
